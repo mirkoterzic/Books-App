@@ -1,7 +1,8 @@
+import Books from "./Books.js";
 function App() {
   return (
     <div>
-      <h1>Books App</h1>
+      <Books />
     </div>
   );
 }
