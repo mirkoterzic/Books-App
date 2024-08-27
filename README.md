@@ -4,7 +4,7 @@ A modern web application built with React and Tailwind CSS that fetches and disp
 
 ## Live Demo
 
-**<a href="https://mirkoterzic.github.io/books-app" target="_blank">You can view the live demo of the project here</a>**
+**<a href="https://mirkoterzic.github.io/Books-App_NY_TImes_API/" target="_blank">You can view the live demo of the project here</a>**
 
 ## Features
 
