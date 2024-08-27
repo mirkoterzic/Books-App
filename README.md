@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Books App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web application built with React and Tailwind CSS that fetches and displays the current best-selling books in the hardcover fiction category from the New York Times API. This application features a responsive design, attractive styling, and buy links for each book.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+[You can view the live demo of the project here](https://mirkoterzic.github.io/books-app).
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Book List**: Displays a list of best-selling books with their images, titles, descriptions, authors, and more.
+- **Buy Links**: Each book includes links to purchase it from various online stores.
+- **Responsive Design**: Optimized for both mobile and desktop views using Tailwind CSS.
+- **Icons**: Utilizes React Icons for an enhanced user interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+1. **Clone the Repository:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/mirkoterzic/books-app.git
+2. **Navigate to the Project Directory:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd books-app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install Dependencies:**
 
-### `npm run eject`
+   ```bash
+   npm install
+   
+3. **Set Up Environment Variables:**
+   
+   Create a **.env** file in the root directory ,get your **New York Times API key** [here](https://developer.nytimes.com/) and add it to your .env file like this  :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   **DO NOT FORGET TO ADD .env TO .gitignore**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   REACT_APP_BOOKS_API_KEY=your_api_key_here
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **Start the Development Server:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
 
-## Learn More
+  **Your application will be available at [http://localhost:3000](http://localhost:3000)**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ## Scripts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `npm start`: Starts the development server.
+- `npm run build`: Builds the application for production.
+- `npm run deploy`: Deploys the build directory to GitHub Pages.
+- `npm test`: Runs the tests.
+- `npm run eject`: Ejects the configuration files (use with caution).
 
-### Code Splitting
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **React**: A JavaScript library for building user interfaces.
+- **Axios**: A promise-based HTTP client for making API requests.
+- **React Icons**: Collection of popular icons for React.
+- **Tailwind CSS**: Utility-first CSS framework for building custom designs.
+- **gh-pages**: Utility for deploying to GitHub Pages.
+- **dotenv**: For loading environment variables from a .env file.
 
-### Analyzing the Bundle Size
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **New York Times Books API** - For providing the data on best-selling books.
+- **React** - The library used for building the UI.
+- **Tailwind CSS** - The CSS framework for styling.
+- **GitHub Pages** - For hosting the live demo.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Author
 
-### Advanced Configuration
+**Mirko Terzic**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**<a href="https://github.com/mirkoterzic" target="_blank">GitHub</a>**
 
-### Deployment
+**<a href="https://www.linkedin.com/in/mirkoterzic/" target="_blank">LinkedIn</a>**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**<a href="https://leetcode.com/u/mirko_terzic/" target="_blank">LeetCode</a>**
 
-### `npm run build` fails to minify
+**<a href="https://www.frontendmentor.io/profile/mirkoterzic" target="_blank">Frontedn Mentor Profile</a>**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+   
